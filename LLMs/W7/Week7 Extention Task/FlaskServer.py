@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # set up Gemini
-api_key = "AIzaSyB2P0_bGLgloGJwyswLPMedv1XUpazrIEI"  # <<< replace with your key or set env var and modify
+api_key = "AIzaSyCDc5IQ_tfTNGg_QsC99CBQ5s8sBhhbGvg"  # <<< replace with your key or set env var and modify
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
