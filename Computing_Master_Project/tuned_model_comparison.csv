@@ -1,0 +1,15 @@
+Model,Accuracy,Balanced_Acc,Precision,Recall,F1,ROC_AUC,PR_AUC
+Best LogisticRegression,0.9572,0.5,0.0,0.0,0.0,0.8134,0.203
+Best LogisticRegression + tuned threshold,0.8931,0.6485,0.1684,0.381,0.2336,0.8134,0.203
+Best HistGradientBoosting + tuned threshold,0.8391,0.6771,0.1329,0.5,0.21,0.808,0.1549
+Best HistGradientBoosting,0.721,0.7292,0.1054,0.7381,0.1845,0.808,0.1549
+Best GradientBoosting,0.9572,0.5,0.0,0.0,0.0,0.8062,0.1374
+Best GradientBoosting + tuned threshold,0.9073,0.6218,0.1733,0.3095,0.2222,0.8062,0.1374
+Best SVC,0.7312,0.7231,0.1064,0.7143,0.1852,0.8044,0.2004
+Best SVC + tuned threshold,0.8829,0.6659,0.1651,0.4286,0.2384,0.8044,0.2004
+Best ExtraTrees,0.7525,0.6888,0.1028,0.619,0.1763,0.8027,0.1547
+Best ExtraTrees + tuned threshold,0.8727,0.6719,0.157,0.4524,0.2331,0.8027,0.1547
+Best RandomForest + tuned threshold,0.8605,0.6542,0.1374,0.4286,0.2081,0.7896,0.1408
+Best RandomForest,0.8198,0.6784,0.1229,0.5238,0.1991,0.7896,0.1408
+Best KNN,0.9572,0.5,0.0,0.0,0.0,0.7434,0.1206
+Best KNN + tuned threshold,0.8951,0.604,0.1412,0.2857,0.189,0.7434,0.1206

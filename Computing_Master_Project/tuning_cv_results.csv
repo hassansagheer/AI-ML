@@ -1,0 +1,8 @@
+Model,CV_ROC_AUC,CV_PR_AUC,CV_F1,CV_Recall,Best_Params
+GradientBoosting,0.852169496909015,0.2027217297994084,0.0,0.0,"{'learning_rate': 0.01, 'max_depth': 3, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100, 'subsample': 0.8}"
+LogisticRegression,0.8485739750445633,0.19164617513777454,0.022857142857142857,0.012121212121212121,"{'C': 1, 'class_weight': None, 'penalty': 'l2', 'solver': 'lbfgs'}"
+SVC,0.8463403591610724,0.18954595694214377,0.20535210124386305,0.7839572192513369,"{'C': 0.1, 'class_weight': 'balanced', 'gamma': 1, 'kernel': 'linear'}"
+HistGradientBoosting,0.8450176830887093,0.1791372297606315,0.19557710029104994,0.8197860962566844,"{'class_weight': 'balanced', 'l2_regularization': 1.0, 'learning_rate': 0.01, 'max_depth': 3, 'max_leaf_nodes': 15, 'min_samples_leaf': 50}"
+RandomForest,0.8406405260363332,0.17154638411357576,0.23924788503949007,0.6105169340463459,"{'class_weight': 'balanced', 'max_depth': 10, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 300}"
+ExtraTrees,0.8352258504949368,0.17075204399891367,0.21801893608580242,0.8140819964349376,"{'class_weight': 'balanced', 'max_depth': 5, 'min_samples_leaf': 5, 'n_estimators': 200}"
+KNN,0.7713184330792278,0.14035022828813454,0.0,0.0,"{'metric': 'manhattan', 'n_neighbors': 31, 'weights': 'uniform'}"
